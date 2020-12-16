@@ -4,11 +4,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #F6F6F6;
+  font-family: Raleway;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f5f5f5;
 }
 
 .landing-page {
@@ -29,6 +33,7 @@ html {
   margin-left: 2.5vh;
   margin-top: 3vh;
   text-decoration: none;
+  color: black;
 }
 
 .landing-page .header .last-a-header {
@@ -157,7 +162,9 @@ html {
 }
 
 .contact-page {
+  display: flex;
   height: 100vh;
+  flex-direction: column;
 }
 
 .contact-page .title-contact-container {
@@ -175,20 +182,294 @@ html {
 
 .contact-page .title-contact-container img {
   width: 1.25vh;
+  align-self: baseline;
+  margin-top: 1.75vh;
 }
 
 .contact-page .contact-form-wrapper {
+  box-shadow: 27px 27px 54px #bababa,  -27px -27px 54px #ffffff;
+  margin-top: 5vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  margin-top: 10vh;
-  background-color: #FFFFFF;
-  height: 55vh;
-  width: 90vh;
+  align-self: center;
+  justify-self: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  width: 80vh;
+  height: 50vh;
+  border-radius: 35px;
 }
 
-.contact-page .contact-form-wrapper .contact-input-wrapper {
-  background-color: #FFFFFF;
+.contact-page .contact-form-wrapper .name-form {
+  margin-top: 5vh;
+  margin-left: 5vh;
+  width: 35%;
+  height: 12%;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.contact-page .contact-form-wrapper .name-form input {
+  font-size: 2vh;
+  width: 100%;
+  padding-top: 4vh;
+  height: 100%;
+  border: none;
+  color: #595f6e;
+  outline: none;
+}
+
+.contact-page .contact-form-wrapper .name-form input:focus + .label-name .content-name,
+.contact-page .contact-form-wrapper .name-form input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 1.5vh;
+  color: #008b46;
+}
+
+.contact-page .contact-form-wrapper .name-form input:focus + .label-name::after, .contact-page .contact-form-wrapper .name-form input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+
+.contact-page .contact-form-wrapper .name-form label {
+  font-size: 2vh;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 2px solid lightgray;
+  background-color: none;
+}
+
+.contact-page .contact-form-wrapper .name-form label::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -1;
+  left: 0px;
+  border-bottom: 4px solid #95ecc1;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+  transition: transform 1s ease;
+}
+
+.contact-page .contact-form-wrapper .name-form label .content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+}
+
+.contact-page .contact-form-wrapper .email-form {
+  margin-top: 5vh;
+  margin-left: 5vh;
+  width: 35%;
+  height: 12%;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-page .contact-form-wrapper .email-form input {
+  font-size: 2vh;
+  width: 100%;
+  padding-top: 4vh;
+  height: 100%;
+  border: none;
+  color: #595f6e;
+  outline: none;
+}
+
+.contact-page .contact-form-wrapper .email-form input:focus + .label-name .content-name,
+.contact-page .contact-form-wrapper .email-form input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 1.5vh;
+  color: #008b46;
+}
+
+.contact-page .contact-form-wrapper .email-form input:focus + .label-name::after, .contact-page .contact-form-wrapper .email-form input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+
+.contact-page .contact-form-wrapper .email-form label {
+  font-size: 2vh;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 2px solid lightgray;
+  background-color: none;
+}
+
+.contact-page .contact-form-wrapper .email-form label::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -1;
+  left: 0px;
+  border-bottom: 4px solid #95ecc1;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+  transition: transform 1s ease;
+}
+
+.contact-page .contact-form-wrapper .email-form label .content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+}
+
+.contact-page .contact-form-wrapper .subject-form {
+  margin-left: 5vh;
+  width: 35%;
+  height: 12%;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-page .contact-form-wrapper .subject-form input {
+  font-size: 2vh;
+  width: 100%;
+  padding-top: 4vh;
+  height: 100%;
+  border: none;
+  color: #595f6e;
+  outline: none;
+}
+
+.contact-page .contact-form-wrapper .subject-form input:focus + .label-name .content-name,
+.contact-page .contact-form-wrapper .subject-form input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 1.5vh;
+  color: #008b46;
+}
+
+.contact-page .contact-form-wrapper .subject-form input:focus + .label-name::after, .contact-page .contact-form-wrapper .subject-form input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+
+.contact-page .contact-form-wrapper .subject-form label {
+  font-size: 2vh;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 2px solid lightgray;
+  background-color: none;
+}
+
+.contact-page .contact-form-wrapper .subject-form label::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -1;
+  left: 0px;
+  border-bottom: 4px solid #95ecc1;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+  transition: transform 1s ease;
+}
+
+.contact-page .contact-form-wrapper .subject-form label .content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+}
+
+.contact-page .contact-form-wrapper .message-form {
+  margin-left: 5vh;
+  margin-right: 10vh;
+  width: 76%;
+  height: 12%;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-page .contact-form-wrapper .message-form input {
+  font-size: 2vh;
+  width: 100%;
+  padding-top: 4vh;
+  height: 100%;
+  border: none;
+  color: #595f6e;
+  outline: none;
+}
+
+.contact-page .contact-form-wrapper .message-form input:focus + .label-name .content-name,
+.contact-page .contact-form-wrapper .message-form input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 1.5vh;
+  color: #008b46;
+}
+
+.contact-page .contact-form-wrapper .message-form input:focus + .label-name::after, .contact-page .contact-form-wrapper .message-form input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+
+.contact-page .contact-form-wrapper .message-form label {
+  font-size: 2vh;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 2px solid lightgray;
+  background-color: none;
+}
+
+.contact-page .contact-form-wrapper .message-form label::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -1;
+  left: 0px;
+  border-bottom: 4px solid #6be4a7;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+  transition: transform 1s ease;
+}
+
+.contact-page .contact-form-wrapper .message-form label .content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+}
+
+.contact-page .contact-form-wrapper .submit-btn {
+  align-self: baseline;
+  margin-left: 40%;
+  background-color: #6be4a7;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 2.2vh;
+  font-family: Kanit;
+  width: 15%;
+  height: 9%;
+  text-decoration: none;
+  border-radius: 35px;
+  outline: none;
+}
+
+.contact-page .contact-form-wrapper .submit-btn:hover {
+  background-color: #46e997;
+}
+
+.contact-page .contact-form-wrapper .submit-btn:active {
+  position: relative;
+  top: 1px;
 }
 /*# sourceMappingURL=index.css.map */
