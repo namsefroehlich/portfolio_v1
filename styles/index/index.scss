@@ -87,7 +87,7 @@ body{
         flex-direction: column;
         width: 50%;
         margin-left: 25vh;
-        margin-top: 15vh;
+        margin-top: 16vh;
 
         .title-about-container{
             display: flex;
@@ -98,7 +98,7 @@ body{
                 margin-left: 1vh;
             }
             img{
-                width: 1.25vh;
+                width: 2vh;
             }
         }
 
@@ -137,6 +137,8 @@ body{
         img{
             align-self: center;
             width: 45vh;
+            box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+            border-radius: 12px;
         }
     }
 }
@@ -155,7 +157,7 @@ body{
             margin-left: 1vh;
         }
         img{
-            width: 1.25vh;
+            width: 2vh;
         }
     }
 }
@@ -169,6 +171,7 @@ body{
         display: flex;
         margin-left: 25vh;
         margin-top: 15vh;
+        
         h1{
             font-family: Raleway, sans-serif;
             font-size: 4vh;
@@ -176,15 +179,13 @@ body{
             margin-left: 1vh;
         }
         img{
-            width: 1.25vh;
-            align-self: baseline;
-            margin-top: 1.75vh;
+            width: 2vh;
+            margin-top: 0.25vh;
         }
     }
 
     .contact-form-wrapper{
-        box-shadow:  27px 27px 54px #bababa, 
-             -27px -27px 54px #ffffff;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         margin-top: 5vh;
         display: flex;
         align-self: center;
@@ -466,6 +467,7 @@ body{
             font-family: Kanit;
             width: 15%;
             height: 9%;
+            letter-spacing: 1px;
             text-decoration:none;
             border-radius: 35px;
             outline: none;
