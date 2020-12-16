@@ -204,7 +204,7 @@ body {
   margin-top: 5vh;
   margin-left: 5vh;
   width: 35%;
-  height: 12%;
+  height: 13%;
   flex-direction: column;
   position: relative;
   overflow: hidden;
@@ -251,7 +251,7 @@ body {
   height: 100%;
   bottom: -1;
   left: 0px;
-  border-bottom: 4px solid #95ecc1;
+  border-bottom: 2px solid #95ecc1;
   transform: translateX(-100%);
   transition: all 0.3s ease;
   transition: transform 1s ease;
@@ -267,7 +267,7 @@ body {
   margin-top: 5vh;
   margin-left: 5vh;
   width: 35%;
-  height: 12%;
+  height: 13%;
   flex-direction: column;
   position: relative;
   overflow: hidden;
@@ -313,7 +313,7 @@ body {
   height: 100%;
   bottom: -1;
   left: 0px;
-  border-bottom: 4px solid #95ecc1;
+  border-bottom: 2px solid #95ecc1;
   transform: translateX(-100%);
   transition: all 0.3s ease;
   transition: transform 1s ease;
@@ -328,7 +328,7 @@ body {
 .contact-page .contact-form-wrapper .subject-form {
   margin-left: 5vh;
   width: 35%;
-  height: 12%;
+  height: 13%;
   flex-direction: column;
   position: relative;
   overflow: hidden;
@@ -374,7 +374,7 @@ body {
   height: 100%;
   bottom: -1;
   left: 0px;
-  border-bottom: 4px solid #95ecc1;
+  border-bottom: 2px solid #95ecc1;
   transform: translateX(-100%);
   transition: all 0.3s ease;
   transition: transform 1s ease;
@@ -390,7 +390,7 @@ body {
   margin-left: 5vh;
   margin-right: 10vh;
   width: 76%;
-  height: 12%;
+  height: 13%;
   flex-direction: column;
   position: relative;
   overflow: hidden;
@@ -436,7 +436,7 @@ body {
   height: 100%;
   bottom: -1;
   left: 0px;
-  border-bottom: 4px solid #6be4a7;
+  border-bottom: 2px solid #6be4a7;
   transform: translateX(-100%);
   transition: all 0.3s ease;
   transition: transform 1s ease;
