@@ -78,6 +78,7 @@ body{
             display: flex;
             justify-content: flex-end;
             margin-right: 5.25vh;
+            opacity: 0;
         }
 
     }
@@ -95,7 +96,7 @@ body{
         width: 50%;
         margin-left: 25vh;
         margin-top: 16vh;
-
+        
         .title-about-container{
             display: flex;
             h1{
@@ -133,6 +134,13 @@ body{
                 letter-spacing: 0.1rem;
             }
         }
+
+    }
+
+
+    .left-about-container-appear{
+        opacity: 1;
+        transform: translateY(0px);
 
     }
 
