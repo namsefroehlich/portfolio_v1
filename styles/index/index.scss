@@ -164,7 +164,7 @@ body{
 
 .contact-page{
     display: flex;
-    height: 100vh;
+    height: 93vh;
     flex-direction: column;
 
     .title-contact-container{
@@ -481,5 +481,37 @@ body{
         }
         
 
+    }
+}
+
+footer{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 7vh;
+    justify-content: space-around;
+
+
+    p{
+        font-weight: 600;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .footer-links-wrapper{
+        display: flex;
+        margin-right: 8vh;
+
+        p{
+            padding: 2vh;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
     }
 }

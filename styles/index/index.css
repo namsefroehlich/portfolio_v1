@@ -165,7 +165,7 @@ body {
 
 .contact-page {
   display: flex;
-  height: 100vh;
+  height: 93vh;
   flex-direction: column;
 }
 
@@ -473,5 +473,36 @@ body {
 .contact-page .contact-form-wrapper .submit-btn:active {
   position: relative;
   top: 1px;
+}
+
+footer {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  height: 7vh;
+  justify-content: space-around;
+}
+
+footer p {
+  font-weight: 600;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer .footer-links-wrapper {
+  display: flex;
+  margin-right: 8vh;
+}
+
+footer .footer-links-wrapper p {
+  padding: 2vh;
+}
+
+footer .footer-links-wrapper a {
+  color: black;
+  text-decoration: none;
 }
 /*# sourceMappingURL=index.css.map */
