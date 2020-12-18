@@ -31,10 +31,11 @@ body {
   font-size: 2.5vh;
   font-weight: 300;
   align-self: flex-end;
-  margin-left: 2.5vh;
+  margin-left: 3.5vh;
   margin-top: 3vh;
   text-decoration: none;
   color: black;
+  letter-spacing: 3px;
 }
 
 .landing-page .header .last-a-header {
@@ -162,7 +163,7 @@ body {
 .project-page .title-project-container {
   display: flex;
   margin-left: 25vh;
-  margin-top: 15vh;
+  padding-top: 10vh;
 }
 
 .project-page .title-project-container h1 {
@@ -174,6 +175,51 @@ body {
 
 .project-page .title-project-container img {
   width: 2vh;
+}
+
+.project-page .project-images {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 8vh;
+}
+
+.project-page .project-images .image-wrapper {
+  width: calc(100% / 3);
+  height: 45vh;
+  position: relative;
+}
+
+.project-page .project-images .image-wrapper img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.project-page .project-images .image-wrapper .overlay {
+  background-color: rgba(141, 199, 243, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition: all 0.9s ease;
+}
+
+.project-page .project-images .image-wrapper .overlay:hover {
+  background-color: #8dc7f3;
+}
+
+.project-page .project-images .image-wrapper .overlay h1 {
+  font-family: Raleway, sans-serif;
+  font-size: 4vh;
+  font-weight: 700;
+  margin-left: 1vh;
+  color: white;
+  letter-spacing: 2px;
 }
 
 .contact-page {
