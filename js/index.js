@@ -6,4 +6,9 @@ $(document).ready(function() {
     $("#job-title").fadeTo(1000, 1);
     $("#blue-line").fadeTo(1000, 1);
     $(".arrow-wrapper").fadeTo(3000, 1);
+
+
+    // Navbar Left Fixed
+    let nfLogo = $("#nf-logo");
+    let navbarIcons = $(".navbar-icons")
 });

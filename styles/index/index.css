@@ -27,7 +27,6 @@ body::-webkit-scrollbar-thumb {
   background-color: #63b3f0;
   border-radius: 100px;
   border: 1px solid #63b3f0;
-  padding-top: 10px;
 }
 
 #nf-logo {
@@ -36,6 +35,22 @@ body::-webkit-scrollbar-thumb {
   position: fixed;
   z-index: 2;
   width: 6vh;
+  cursor: pointer;
+}
+
+.navbar {
+  margin-top: calc(71vh /2);
+  margin-left: 8vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  transition: all 1s ease;
+  z-index: 2;
+}
+
+.navbar .navbar-icon {
+  padding: 1vh;
+  width: 8vh;
 }
 
 .landing-page {
