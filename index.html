@@ -13,7 +13,7 @@
     <div class='header'>
 
       <a href="#about" >ABOUT</a>
-      <a href="#project">PROJECTS</a>
+      <a href="#projects">PROJECTS</a>
       <a href="#contact" class='last-a-header'>CONTACT</a>
 
     </div>
@@ -31,7 +31,7 @@
       </div>
 
       <div class='arrow-wrapper'>
-        <img src='./assets/arrow-down-blue.svg' alt=''/> 
+        <a href="#about"><img src='./assets/arrow-down-blue.svg' alt=''/></a>
       </div>
       
     </div>
@@ -68,7 +68,7 @@
 
   </section>
 
-  <section id="project" class='project-page'>
+  <section id="projects" class='project-page'>
 
   <div class='title-project-container'>
     <img src='./assets/circle-blue.svg' alt=''/>
@@ -104,7 +104,7 @@
   </div>
 
 
-    <div class='contact-form-wrapper'>
+    <form class='contact-form-wrapper'   action="https://formspree.io/f/xknpqdjv" method="POST">
 
       <div class='name-form'>
         <input type='text' name='name' autocomplete='off' required></input>
@@ -129,20 +129,27 @@
 
       <button class='submit-btn'>SUBMIT</button>
 
-    </div>
+    </form>
 
   </section>
 
   <footer>
-    <p class="footer-name" >Namse Fröhlich</p>
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/namsefroehlich"><p>Github</p></a>
-    <div class="footer-links-wrapper">
-      <a href=""><p class="footer-about" >About</p></a>
-      <a href=""><p class="footer-projects" >Projects</p></a>
-      <a href=""><p class="footer-contact" >Contact</p></a>
+
+    <!-- <div class="footer-links-wrapper">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/namsefroehlich"><p>Github</p></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/namse-fr%C3%B6hlich/"><p>LinkedIn</p></a>
+    </div> -->
+
+    <!-- <div class="footer-nav-wrapper">
+      <a href="#about"><p class="footer-about" >About</p></a>
+      <a href="#projects"><p class="footer-projects" >Projects</p></a>
+      <a href="#contact"><p class="footer-contact" >Contact</p></a>
+    </div> -->
+
+    <div class="footer-name-wrapper">
+      <a href=""><p class="footer-about" >Namse Fröhlich 2020©</p></a>
     </div>
-    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/namse-fr%C3%B6hlich/"><p>LinkedIn</p></a>
-    <p class="footer-year" >2020</p>
+
   </footer>
 
 

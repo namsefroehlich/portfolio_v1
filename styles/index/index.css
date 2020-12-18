@@ -255,14 +255,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #ffffff;
-  width: 80vh;
+  width: 85vh;
   height: 50vh;
   border-radius: 35px;
 }
 
 .contact-page .contact-form-wrapper .name-form {
   margin-top: 5vh;
-  margin-left: 5vh;
+  margin-left: 7vh;
   width: 35%;
   height: 13%;
   flex-direction: column;
@@ -325,7 +325,7 @@ body {
 
 .contact-page .contact-form-wrapper .email-form {
   margin-top: 5vh;
-  margin-left: 5vh;
+  margin-left: 7vh;
   width: 35%;
   height: 13%;
   flex-direction: column;
@@ -386,7 +386,7 @@ body {
 }
 
 .contact-page .contact-form-wrapper .subject-form {
-  margin-left: 5vh;
+  margin-left: 7vh;
   width: 35%;
   height: 13%;
   flex-direction: column;
@@ -447,7 +447,7 @@ body {
 }
 
 .contact-page .contact-form-wrapper .message-form {
-  margin-left: 5vh;
+  margin-left: 7vh;
   margin-right: 10vh;
   width: 76%;
   height: 13%;
@@ -538,12 +538,14 @@ footer {
   display: flex;
   background-color: white;
   align-items: center;
+  justify-content: flex-end;
   height: 7vh;
-  justify-content: space-around;
 }
 
 footer p {
   font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 2vh;
 }
 
 footer a {
@@ -551,17 +553,8 @@ footer a {
   text-decoration: none;
 }
 
-footer .footer-links-wrapper {
+footer .footer-name-wrapper {
   display: flex;
-  margin-right: 8vh;
-}
-
-footer .footer-links-wrapper p {
-  padding: 2vh;
-}
-
-footer .footer-links-wrapper a {
-  color: black;
-  text-decoration: none;
+  margin-right: 5vh;
 }
 /*# sourceMappingURL=index.css.map */

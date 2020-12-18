@@ -254,13 +254,13 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         background-color: #ffffff;
-        width: 80vh;
+        width: 85vh;
         height: 50vh;
         border-radius: 35px;
 
         .name-form{
             margin-top: 5vh;
-            margin-left: 5vh;
+            margin-left: 7vh;
             width: 35%;
             height: 13%;
             flex-direction: column;
@@ -326,7 +326,7 @@ body{
 
         .email-form{
             margin-top: 5vh;
-            margin-left: 5vh;
+            margin-left: 7vh;
             width: 35%;
             height: 13%;
             flex-direction: column;
@@ -389,7 +389,7 @@ body{
         }
         // END EMAIL FORM
         .subject-form{
-            margin-left: 5vh;
+            margin-left: 7vh;
             width: 35%;
             height: 13%;
             flex-direction: column;
@@ -453,7 +453,7 @@ body{
         // END SUBJECT FORM
 
         .message-form{
-            margin-left: 5vh;
+            margin-left: 7vh;
             margin-right: 10vh;
             width: 76%;
             height: 13%;
@@ -549,12 +549,14 @@ footer{
     display: flex;
     background-color: white;
     align-items: center;
+    justify-content: flex-end;
     height: 7vh;
-    justify-content: space-around;
 
 
     p{
         font-weight: 600;
+        letter-spacing: 3px;
+        font-size: 2vh;
     }
 
     a{
@@ -562,17 +564,8 @@ footer{
         text-decoration: none;
     }
 
-    .footer-links-wrapper{
+    .footer-name-wrapper{
         display: flex;
-        margin-right: 8vh;
-
-        p{
-            padding: 2vh;
-        }
-
-        a{
-            color: black;
-            text-decoration: none;
-        }
+        margin-right: 5vh;
     }
 }
