@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+
+* img {
+  width: 25vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #e99cc9;
+}
+
+body::-webkit-scrollbar {
+  width: 1vh;
+}
+
+body::-webkit-scrollbar-track {
+  background: #e99cc9;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: 1px solid #ffffff;
+}
+
+.m-s1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 105vh;
+}
+
+.m-s1 .m-left-s1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65vw;
+}
+
+.m-s1 .m-left-s1 h1 {
+  font-size: 9vh;
+  color: #fcfcfc;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+}
+
+.m-s1 .m-left-s1 img {
+  width: 39vw;
+}
+
+.m-s1 .m-right-s1 {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+
+.m-s1 .m-right-s1 .m-about-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18vh;
+  background-color: #fcfcfc;
+  width: 55vh;
+  height: 50vh;
+}
+
+.m-s1 .m-right-s1 .m-about-wrapper h1 {
+  padding-top: 4vh;
+  padding-left: 4vh;
+  font-size: 5vh;
+  color: #bd4b8d;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.m-s1 .m-right-s1 .m-about-wrapper p {
+  padding-left: 4vh;
+  padding-right: 2vh;
+  padding-top: 3vh;
+  font-size: 2.5vh;
+  color: #bd4b8d;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 3.5vh;
+}
+
+.m-s1 .m-right-s1 .m-projectstack-wrapper {
+  margin-top: 2vh;
+  background-color: #fcfcfc;
+  width: 55vh;
+  height: 10vh;
+}
+
+.m-s1 .m-right-s1 .m-projectstack-wrapper p {
+  padding-left: 4vh;
+  padding-top: 2vh;
+  font-size: 2.5vh;
+  color: #bd4b8d;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 4vh;
+}
+
+.m-s2 {
+  display: flex;
+  height: 75vh;
+  background: #fcfcfc;
+}
+
+.m-s2 .m-left-s2 {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  justify-content: center;
+}
+
+.m-s2 .m-left-s2 .m-challenge-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.m-s2 .m-left-s2 .m-challenge-wrapper h1 {
+  font-size: 5vh;
+  color: #bd4b8d;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.m-s2 .m-left-s2 .m-challenge-wrapper p {
+  width: 90%;
+  padding-top: 2vh;
+  font-size: 2.5vh;
+  color: #bd4b8d;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 3.5vh;
+  text-align: center;
+}
+
+.m-s2 .m-right-s2 {
+  width: 65vw;
+}
+
+.m-s3 {
+  display: flex;
+  height: 75vh;
+}
+
+.m-s3 .m-left-s3 {
+  width: 65vw;
+}
+
+.m-s3 .m-right-s3 {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  justify-content: center;
+}
+
+.m-s3 .m-right-s3 .m-solution-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.m-s3 .m-right-s3 .m-solution-wrapper h1 {
+  font-size: 6vh;
+  color: #fcfcfc;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.m-s3 .m-right-s3 .m-solution-wrapper p {
+  width: 90%;
+  padding-top: 2vh;
+  font-size: 3vh;
+  color: #fcfcfc;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 3.5vh;
+  text-align: center;
+}
+
+.m-carousel-container {
+  width: 50vw;
+  margin: auto;
+}
+
+.m-carousel-slider {
+  display: flex;
+  width: 100%;
+  height: 45vh;
+}
+/*# sourceMappingURL=motion.css.map */
