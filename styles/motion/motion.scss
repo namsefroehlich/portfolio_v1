@@ -204,9 +204,6 @@ body{
 }
 
 // Image SLIDE
-
-
-
 .slider{
     width: 55vw;
     height: 65vh;
@@ -273,5 +270,76 @@ body{
   }
   
   #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+
+// Second Slide
+// Image SLIDE
+.s3-slider{
+    width: 55vw;
+    height: 65vh;
+    overflow: hidden;
+}
+  
+  .s3-slides{
+    width: 500%;
+    height: 65vh;
+    display: flex;
+  }
+  
+  .s3-slides input{
+    display: none;
+  }
+  
+  .s3-slide{
+    width: 20%;
+    transition: 3s;
+  }
+  
+  .s3-slide img{
+    object-fit: contain;
+    width: 55vw;
+    height: 65vh;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .s3-navigation-manual{
+    position: absolute;
+    width: 55vw;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .s3-manual-btn{
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .s3-manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .s3-manual-btn:hover{
+    background: #ffffff;
+  }
+  
+  #s3-radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #s3-radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #s3-radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #s3-radio4:checked ~ .first{
     margin-left: -60%;
   }
