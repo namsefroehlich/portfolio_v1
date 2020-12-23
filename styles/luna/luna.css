@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: #e99cc9;
+  background: #FFCB77;
 }
 
 body::-webkit-scrollbar {
@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #e99cc9;
+  background: #FFCB77;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -77,7 +77,7 @@ body::-webkit-scrollbar-thumb {
   padding-top: 4vh;
   padding-left: 4vh;
   font-size: 5vh;
-  color: #bd4b8d;
+  color: #ebb154;
   font-weight: 800;
   letter-spacing: 2px;
 }
@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
   padding-right: 2vh;
   padding-top: 3vh;
   font-size: 2.5vh;
-  color: #bd4b8d;
+  color: #ebb154;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 3.5vh;
@@ -106,7 +106,7 @@ body::-webkit-scrollbar-thumb {
 
 .l-s1 .l-right-s1 .l-projectstack-wrapper p {
   font-size: 2.5vh;
-  color: #bd4b8d;
+  color: #ebb154;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 4vh;
@@ -133,7 +133,7 @@ body::-webkit-scrollbar-thumb {
 
 .l-s2 .l-left-s2 .l-challenge-wrapper h1 {
   font-size: 5vh;
-  color: #bd4b8d;
+  color: #ebb154;
   font-weight: 800;
   letter-spacing: 2px;
 }
@@ -142,7 +142,7 @@ body::-webkit-scrollbar-thumb {
   width: 90%;
   padding-top: 2vh;
   font-size: 2.5vh;
-  color: #bd4b8d;
+  color: #ebb154;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 3.5vh;
@@ -237,7 +237,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .l-manual-btn {
-  border: 2px solid #bd4b8d;
+  border: 2px solid #ebb154;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -249,7 +249,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .l-manual-btn:hover {
-  background: #e99cc9;
+  background: #FFCB77;
 }
 
 #l-radio1:checked ~ .first {
