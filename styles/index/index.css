@@ -3,7 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: Raleway;
 }
 
@@ -41,9 +42,15 @@ body::-webkit-scrollbar-thumb {
 .navbar {
   margin-top: calc(71vh /2);
   margin-left: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: fixed;
+  -webkit-transition: all 1s ease;
   transition: all 1s ease;
   z-index: 2;
 }
@@ -58,8 +65,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .landing-page .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   height: 7vh;
   opacity: 0;
 }
@@ -68,12 +79,14 @@ body::-webkit-scrollbar-thumb {
   font-family: Raleway, sans-serif;
   font-size: 2.5vh;
   font-weight: 300;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   margin-left: 3.5vh;
   margin-top: 3vh;
   text-decoration: none;
   color: black;
   letter-spacing: 3px;
+  -webkit-transition: all 0.7s ease-out;
   transition: all 0.7s ease-out;
 }
 
@@ -87,8 +100,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .landing-page .landing-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .landing-page .landing-text .name-wrapper {
@@ -101,6 +119,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 11vh;
   width: 91vh;
   opacity: 0;
+  -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
@@ -110,6 +129,8 @@ body::-webkit-scrollbar-thumb {
 
 .landing-page .landing-text .profession-wrapper {
   margin-left: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: -2vh;
 }
@@ -120,6 +141,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 5vh;
   margin-left: 2vh;
   opacity: 0;
+  -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
 
@@ -132,28 +154,41 @@ body::-webkit-scrollbar-thumb {
 }
 
 .landing-page .landing-text .arrow-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 28vh;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin-right: 5.25vh;
   opacity: 0;
 }
 
 .about-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100vh;
 }
 
 .about-page .left-about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 50%;
   margin-left: 25vh;
   margin-top: 16vh;
 }
 
 .about-page .left-about-container .title-about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -195,19 +230,27 @@ body::-webkit-scrollbar-thumb {
 
 .about-page .left-about-container-appear {
   opacity: 1;
-  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 
 .about-page .right-about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 50%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-page .right-about-container img {
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   width: 45vh;
-  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+          box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
   border-radius: 12px;
 }
 
@@ -216,6 +259,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .project-page .title-project-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 25vh;
   padding-top: 10vh;
@@ -233,8 +278,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .project-page .project-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 100%;
   margin-top: 8vh;
 }
@@ -246,26 +296,29 @@ body::-webkit-scrollbar-thumb {
 }
 
 .project-page .project-images .image-wrapper img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   width: 100%;
 }
 
 .project-page .project-images .image-wrapper .overlay {
-  background-color: rgba(141, 199, 243, 0.7);
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   z-index: 1;
+  -webkit-transition: all 0.9s ease;
   transition: all 0.9s ease;
-}
-
-.project-page .project-images .image-wrapper .overlay:hover {
-  background-color: #8dc7f3;
 }
 
 .project-page .project-images .image-wrapper .overlay h1 {
@@ -277,13 +330,44 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: 2px;
 }
 
+.project-page .project-images .image-wrapper #motion-overlay {
+  background-color: #e99cc9;
+}
+
+.project-page .project-images .image-wrapper #motion-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.project-page .project-images .image-wrapper #autograf-overlay {
+  background-color: #A4BEF3;
+}
+
+.project-page .project-images .image-wrapper #autograf-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.project-page .project-images .image-wrapper #luna-overlay {
+  background-color: #FFCB77;
+}
+
+.project-page .project-images .image-wrapper #luna-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .contact-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 93vh;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .contact-page .title-contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 25vh;
   margin-top: 15vh;
@@ -302,13 +386,21 @@ body::-webkit-scrollbar-thumb {
 }
 
 .contact-page .contact-form-wrapper {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   justify-self: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background-color: #ffffff;
   width: 85vh;
   height: 50vh;
@@ -320,7 +412,10 @@ body::-webkit-scrollbar-thumb {
   margin-left: 7vh;
   width: 35%;
   height: 13%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   overflow: hidden;
   background-color: inherit;
@@ -338,13 +433,15 @@ body::-webkit-scrollbar-thumb {
 
 .contact-page .contact-form-wrapper .name-form input:focus + .label-name .content-name,
 .contact-page .contact-form-wrapper .name-form input:valid + .label-name .content-name {
-  transform: translateY(-150%);
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
   font-size: 1.5vh;
   color: #008b46;
 }
 
 .contact-page .contact-form-wrapper .name-form input:focus + .label-name::after, .contact-page .contact-form-wrapper .name-form input:valid + .label-name::after {
-  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 .contact-page .contact-form-wrapper .name-form label {
@@ -367,9 +464,14 @@ body::-webkit-scrollbar-thumb {
   bottom: -1;
   left: 0px;
   border-bottom: 2px solid #95ecc1;
-  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 
 .contact-page .contact-form-wrapper .name-form label .content-name {
@@ -383,7 +485,10 @@ body::-webkit-scrollbar-thumb {
   margin-left: 7vh;
   width: 35%;
   height: 13%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   overflow: hidden;
 }
@@ -400,13 +505,15 @@ body::-webkit-scrollbar-thumb {
 
 .contact-page .contact-form-wrapper .email-form input:focus + .label-name .content-name,
 .contact-page .contact-form-wrapper .email-form input:valid + .label-name .content-name {
-  transform: translateY(-150%);
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
   font-size: 1.5vh;
   color: #008b46;
 }
 
 .contact-page .contact-form-wrapper .email-form input:focus + .label-name::after, .contact-page .contact-form-wrapper .email-form input:valid + .label-name::after {
-  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 .contact-page .contact-form-wrapper .email-form label {
@@ -429,9 +536,14 @@ body::-webkit-scrollbar-thumb {
   bottom: -1;
   left: 0px;
   border-bottom: 2px solid #95ecc1;
-  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 
 .contact-page .contact-form-wrapper .email-form label .content-name {
@@ -444,7 +556,10 @@ body::-webkit-scrollbar-thumb {
   margin-left: 7vh;
   width: 35%;
   height: 13%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   overflow: hidden;
 }
@@ -461,13 +576,15 @@ body::-webkit-scrollbar-thumb {
 
 .contact-page .contact-form-wrapper .subject-form input:focus + .label-name .content-name,
 .contact-page .contact-form-wrapper .subject-form input:valid + .label-name .content-name {
-  transform: translateY(-150%);
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
   font-size: 1.5vh;
   color: #008b46;
 }
 
 .contact-page .contact-form-wrapper .subject-form input:focus + .label-name::after, .contact-page .contact-form-wrapper .subject-form input:valid + .label-name::after {
-  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 .contact-page .contact-form-wrapper .subject-form label {
@@ -490,9 +607,14 @@ body::-webkit-scrollbar-thumb {
   bottom: -1;
   left: 0px;
   border-bottom: 2px solid #95ecc1;
-  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 
 .contact-page .contact-form-wrapper .subject-form label .content-name {
@@ -506,7 +628,10 @@ body::-webkit-scrollbar-thumb {
   margin-right: 10vh;
   width: 76%;
   height: 13%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   overflow: hidden;
 }
@@ -523,13 +648,15 @@ body::-webkit-scrollbar-thumb {
 
 .contact-page .contact-form-wrapper .message-form input:focus + .label-name .content-name,
 .contact-page .contact-form-wrapper .message-form input:valid + .label-name .content-name {
-  transform: translateY(-150%);
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
   font-size: 1.5vh;
   color: #008b46;
 }
 
 .contact-page .contact-form-wrapper .message-form input:focus + .label-name::after, .contact-page .contact-form-wrapper .message-form input:valid + .label-name::after {
-  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 .contact-page .contact-form-wrapper .message-form label {
@@ -552,9 +679,14 @@ body::-webkit-scrollbar-thumb {
   bottom: -1;
   left: 0px;
   border-bottom: 2px solid #6be4a7;
-  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 
 .contact-page .contact-form-wrapper .message-form label .content-name {
@@ -564,7 +696,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .contact-page .contact-form-wrapper .submit-btn {
-  align-self: baseline;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
   margin-left: 40%;
   background-color: #6be4a7;
   border: none;
@@ -590,10 +723,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: white;
-  align-items: center;
-  justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   height: 7vh;
 }
 
@@ -609,6 +748,8 @@ footer a {
 }
 
 footer .footer-name-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 5vh;
 }

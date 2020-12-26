@@ -253,7 +253,6 @@ body{
             }
 
             .overlay{
-                background-color: rgba(141,199,243,0.7);
                 position: absolute;
                 width: 100%;
                 height: 100%;
@@ -264,10 +263,6 @@ body{
                 z-index: 1;
                 transition: all 0.9s ease;
 
-                &:hover{
-                    background-color: rgba(141,199,243,1);
-                }
-
                 h1{
                     font-family: Raleway, sans-serif;
                     font-size: 4vh;
@@ -275,6 +270,27 @@ body{
                     margin-left: 1vh;
                     color: white;
                     letter-spacing: 2px;
+                }
+            }
+
+            #motion-overlay{
+                background-color: #e99cc9;
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+            }
+
+            #autograf-overlay{
+                background-color: #A4BEF3;
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+            }
+
+            #luna-overlay{
+                background-color: #FFCB77;
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.1);
                 }
             }
         }
