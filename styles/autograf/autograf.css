@@ -104,7 +104,7 @@ body::-webkit-scrollbar-thumb {
   padding-top: 4vh;
   padding-left: 4vh;
   font-size: 5vh;
-  color: #3c5fa7;
+  color: #6892e7;
   font-weight: 800;
   letter-spacing: 2px;
 }
@@ -114,7 +114,7 @@ body::-webkit-scrollbar-thumb {
   padding-right: 2vh;
   padding-top: 3vh;
   font-size: 2.5vh;
-  color: #3c5fa7;
+  color: #6892e7;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 3.5vh;
@@ -140,7 +140,7 @@ body::-webkit-scrollbar-thumb {
 
 .a-s1 .a-right-s1 .a-projectstack-wrapper p {
   font-size: 2.5vh;
-  color: #3c5fa7;
+  color: #6892e7;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 4vh;
@@ -183,7 +183,7 @@ body::-webkit-scrollbar-thumb {
 
 .a-s2 .a-left-s2 .a-challenge-wrapper h1 {
   font-size: 5vh;
-  color: #3c5fa7;
+  color: #6892e7;
   font-weight: 800;
   letter-spacing: 2px;
 }
@@ -192,7 +192,7 @@ body::-webkit-scrollbar-thumb {
   width: 90%;
   padding-top: 2vh;
   font-size: 2.5vh;
-  color: #3c5fa7;
+  color: #6892e7;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 3.5vh;
@@ -324,7 +324,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .a-manual-btn {
-  border: 2px solid #3c5fa7;
+  border: 2px solid #6892e7;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;

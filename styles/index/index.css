@@ -326,7 +326,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 4vh;
   font-weight: 700;
   margin-left: 1vh;
-  color: white;
+  color: whitesmoke;
   letter-spacing: 2px;
 }
 
@@ -336,6 +336,7 @@ body::-webkit-scrollbar-thumb {
 
 .project-page .project-images .image-wrapper #motion-overlay:hover {
   background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.1);
 }
 
 .project-page .project-images .image-wrapper #autograf-overlay {

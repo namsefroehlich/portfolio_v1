@@ -268,15 +268,17 @@ body{
                     font-size: 4vh;
                     font-weight: 700;
                     margin-left: 1vh;
-                    color: white;
+                    color:whitesmoke;
                     letter-spacing: 2px;
                 }
             }
 
             #motion-overlay{
                 background-color: #e99cc9;
+                
                 &:hover{
                     background-color: rgba(0, 0, 0, 0.1);
+                    color: rgba(0, 0, 0, 0.1);
                 }
             }
 
