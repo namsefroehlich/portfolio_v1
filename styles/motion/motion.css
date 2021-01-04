@@ -434,4 +434,181 @@ body::-webkit-scrollbar-thumb {
 #s3-radio4:checked ~ .first {
   margin-left: -60%;
 }
+
+@media (max-width: 1025px) {
+  .m-s1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 165vh;
+  }
+  .m-s1 .m-left-s1 {
+    width: 100vw;
+  }
+  .m-s1 .m-left-s1 img {
+    width: 90vw;
+  }
+  .m-s1 .m-right-s1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .m-s1 .m-right-s1 .m-about-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 25vw;
+    background-color: #ffffff;
+    width: 100vw;
+    height: auto;
+    padding-bottom: 5vw;
+  }
+  .m-s1 .m-right-s1 .m-projectstack-wrapper {
+    margin-top: 5vw;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 20vw;
+  }
+  .m-s1 .m-right-s1 .m-projectstack-wrapper p {
+    font-size: 4.5vw;
+    color: #bd4b8d;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 4vh;
+  }
+  .m-s1 .m-right-s1 .m-about-wrapper p {
+    padding-left: 4vh;
+    padding-right: 2vh;
+    padding-top: 3vh;
+    font-size: 4.5vw;
+    color: #bd4b8d;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 3.5vh;
+  }
+  .m-s1 .m-right-s1 .m-about-wrapper h1 {
+    padding-top: 4vh;
+    padding-left: 4vh;
+    font-size: 10vw;
+    color: #bd4b8d;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+  .m-s2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 90vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #ffffff;
+  }
+  .m-s2 .m-left-s2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .m-s2 .m-left-s2 .m-challenge-wrapper h1 {
+    padding-top: 5vw;
+  }
+  .m-s2 .m-left-s2 .m-challenge-wrapper p {
+    padding-bottom: 5vw;
+  }
+  .m-s2 .m-right-s2 {
+    width: 100vw;
+  }
+  .slides {
+    height: 50vh;
+  }
+  .slider {
+    width: 100vw;
+    height: 65vh;
+    overflow: hidden;
+  }
+  .slide img {
+    width: 100vw;
+    height: 40vh;
+  }
+  .navigation-manual {
+    position: relative;
+    width: 100vw;
+    /* margin-top: 1vh; */
+    display: -webkit-box;
+    top: -10vh;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  .m-s3 {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .m-s3 .m-right-s3 {
+    width: 100vw;
+    padding-top: 5vw;
+  }
+  .m-s3 .m-right-s3 .m-solution-wrapper h1 {
+    font-size: 12vw;
+    color: #ffffff;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+  .m-s3 .m-right-s3 .m-solution-wrapper p {
+    font-size: 5vw;
+  }
+  .s3-slides {
+    height: 50vh;
+  }
+  .s3-slider {
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+  }
+  .s3-slide img {
+    width: 100vw;
+    height: 40vh;
+  }
+  .s3-navigation-manual {
+    position: relative;
+    width: 100vw;
+    /* margin-top: 1vh; */
+    display: -webkit-box;
+    top: -10vh;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  .m-s3 .m-left-s3 {
+    width: 100vw;
+  }
+}
 /*# sourceMappingURL=motion.css.map */
