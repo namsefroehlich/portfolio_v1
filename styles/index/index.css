@@ -798,7 +798,7 @@ footer .footer-name-wrapper {
   }
   .landing-page .landing-text .name-wrapper h1 {
     font-family: Kanit, sans-serif;
-    font-size: 6vh;
+    font-size: 11vw;
     width: 91vw;
   }
   .landing-page .landing-text .profession-wrapper {
@@ -810,8 +810,8 @@ footer .footer-name-wrapper {
   .landing-page .landing-text .profession-wrapper h2 {
     font-family: Raleway, sans-serif;
     font-weight: 100;
-    font-size: 2.5vh;
-    margin-left: 2vh;
+    font-size: 4vw;
+    margin-left: 2vw;
     opacity: 0;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
@@ -900,8 +900,74 @@ footer .footer-name-wrapper {
   .contact-page .contact-form-wrapper {
     margin-top: 5vh;
     width: 100vw;
-    height: 60vh;
+    height: 100vw;
     border-radius: 35px;
+  }
+  .contact-page .contact-form-wrapper .email-form {
+    margin-top: 0vh;
+    margin-left: 7vh;
+    width: 65%;
+    height: 13%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+  .contact-page .contact-form-wrapper .submit-btn {
+    -ms-flex-item-align: baseline;
+    align-self: baseline;
+    margin-left: 35%;
+    background-color: #6be4a7;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 2.2vh;
+    font-family: Kanit;
+    width: 25%;
+    height: 9%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 35px;
+    outline: none;
+  }
+  .contact-page .contact-form-wrapper .name-form {
+    margin-top: 5vh;
+    margin-left: 7vh;
+    width: 65%;
+    height: 13%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background-color: inherit;
+  }
+  .contact-page .contact-form-wrapper .subject-form {
+    margin-left: 7vh;
+    width: 65%;
+    height: 13%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background-color: inherit;
+  }
+  .contact-page .contact-form-wrapper .message-form {
+    margin-left: 7vh;
+    width: 65%;
+    height: 13%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background-color: inherit;
   }
 }
 /*# sourceMappingURL=index.css.map */
