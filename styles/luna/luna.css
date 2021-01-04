@@ -547,7 +547,7 @@ body::-webkit-scrollbar-thumb {
   }
   .l-slider {
     width: 100vw;
-    height: 65vh;
+    height: 50vh;
     overflow: hidden;
   }
   .l-slide img {
