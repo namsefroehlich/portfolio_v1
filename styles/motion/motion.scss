@@ -233,9 +233,9 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   }
   
   .slide img{
-    object-fit: contain;
-    width: 55vw;
-    height: 65vh;
+    object-fit: cover;
+    width: 50vw;
+    height: 76vh;
   }
   
   /*css for manual slide navigation*/

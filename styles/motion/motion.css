@@ -304,10 +304,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slide img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 55vw;
-  height: 65vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 50vw;
+  height: 76vh;
 }
 
 /*css for manual slide navigation*/
