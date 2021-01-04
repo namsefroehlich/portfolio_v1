@@ -754,4 +754,154 @@ footer .footer-name-wrapper {
   display: flex;
   margin-right: 5vh;
 }
+
+@media (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: Raleway;
+  }
+  .landing-page {
+    width: 100vw;
+    height: 100vh;
+  }
+  .landing-page .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 7vh;
+    opacity: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .landing-page .header a {
+    margin: 0;
+  }
+  .landing-page .header .last-a-header {
+    margin: 0;
+  }
+  .landing-page .landing-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .landing-page .landing-text .name-wrapper {
+    margin-left: 0;
+  }
+  .landing-page .landing-text .name-wrapper h1 {
+    font-family: Kanit, sans-serif;
+    font-size: 6vh;
+    width: 91vw;
+  }
+  .landing-page .landing-text .profession-wrapper {
+    margin-left: 0;
+  }
+  .landing-page .landing-text .profession-wrapper img {
+    width: 35vw;
+  }
+  .landing-page .landing-text .profession-wrapper h2 {
+    font-family: Raleway, sans-serif;
+    font-weight: 100;
+    font-size: 2.5vh;
+    margin-left: 2vh;
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  .landing-page .landing-text .arrow-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 28vh;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-right: 0;
+    opacity: 0;
+  }
+  .about-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 115vh;
+  }
+  .about-page .left-about-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5vh;
+    margin-top: 0vh;
+  }
+  .about-page .left-about-container .about-p-1 {
+    width: 95%;
+    margin-top: 0.5vh;
+  }
+  .about-page .right-about-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 50%;
+  }
+  .about-page .right-about-container img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50vw;
+  }
+  .project-page .title-project-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5vh;
+    padding-top: 10vh;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .project-page .project-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8vh;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .project-page .project-images .image-wrapper {
+    width: 100%;
+    height: 25vh;
+  }
+  .contact-page .title-contact-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5vh;
+    margin-top: 10vh;
+  }
+  .contact-page .contact-form-wrapper {
+    margin-top: 5vh;
+    width: 100vw;
+    height: 60vh;
+    border-radius: 35px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
