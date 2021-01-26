@@ -11,4 +11,12 @@ $(document).ready(function() {
     // Navbar Left Fixed
     let nfLogo = $("#nf-logo");
     let navbarIcons = $(".navbar-icons")
+
+    // Cursor
+    new kursor({
+        type: 1,
+        removeDefaultCursor: true,
+        color: "rgb(128,128,128)",
+
+    });
 });
